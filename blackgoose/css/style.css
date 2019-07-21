@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* @import url('https://fonts.googleapis.com/css?family=Fascinate|Yanone+Kaffeesatz&display=swap'); */
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: #ffe8cc;
+    margin: 25px 10% 0 10%;
+	font-size: 1.25em;
+}
+header {
+	text-align: center;
+}
+h1 {
+    color: #d1633c;
+}
+.name {
+    text-align: center;
+    font-family: 'Fascinate', cursive;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 3em;
+	text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.8);
+	display: inline-block;
+    vertical-align: top;
+}
+h2 {
+    font-size: 2em;
+	color: #d1633c;
+}
+small {
+    color: #999;
+}
+.logo {
+    display: inline;
+}
+a {
+	color:#000;
+}
+nav {
+    border-bottom: 5px double #57b1dc;
+}
+nav > ul {
+    list-style-type: none;
+    text-align: center;
+	padding: 0 10px;
+}
+nav > ul > li {
+    display: inline;
+}
+nav > ul > li a{
+    color: #faea81;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 30px;
+    background-color: #d1633c;
+	border-radius: 15px;
+}
+nav > ul > li a:hover{
+	background-color: #933615;
+    color: #fff;
+}
+footer {
+    border-top: 1px solid #57b1dc;
+    text-align: center;
+    padding-top: 1em;
+}
+footer img {
+    width: 40px;
+    height: 40px;
+    margin-left: .5em;
+    margin-right: .5em;
+}
