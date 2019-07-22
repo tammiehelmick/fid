@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color:whitesmoke;
+    margin: 25px 10% 0 10%;
+	font-size: 1em;
+	color: #A4A4A4;
+}
+header {
+	
+}
+a {
+	color: black;
+}
+h1 {
+    color: grey;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	font-size: 2.25em;
+}
+h2 {
+	border-bottom: dashed 1px #C7C7C7;
+}
+h3 {
+	border-bottom: dashed 1px #C7C7C7;
+	padding-bottom: 1em;
+	margin-top: 0;
+}
+.skills, .software, .social {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 1em;
+	width: 30%;
+}
+.sample01, .sample02, .sample03, .sample04, .sample05, .sample06 {
+	display: inline-block;
+    vertical-align: top;
+    margin-right: .5em;
+    margin-bottom: 1em;
+    width: 30%;
+    border: solid 1px #C7C7C7;
+    text-align: center;
+    padding: .5em;
+    min-height: 400px;
+}
+h4 {
+	font-size: 1.5em;
+	margin: 0 0 .25em 0;
+	padding: 0;
+	text-decoration: underline;
+}
+img {
+	margin-top: 1em;
+}
+a > .smallertext {
+	font-size: 0.75em;
+	font-style: italic;
+	text-decoration: none;
+}
+.examplenav0 {
+	width: 33.33%;
+	text-align: left;
+	font-size: 0.75em;
+	float: left;
+	text-align: left;
+}
+.examplenav1 {
+	width: 33.33%;
+	text-align: left;
+	font-size: 0.75em;
+	float: left;
+	text-align: center;
+}
+.examplenav2 {
+	width: 33.33%;
+	text-align: left;
+	font-size: 0.75em;
+	float: left;
+	text-align: right;
+}
+.examplenav0 a, .examplenav1 a, .examplenav2 a {
+	text-decoration: none;
+    background-color: gray;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+nav {
+    padding-bottom: 2.5em;
+	border-bottom: dashed 1px #C7C7C7;
+	margin-top: 1.5em;
+}
+.sample_thumb {
+	width: 100%;
+}
