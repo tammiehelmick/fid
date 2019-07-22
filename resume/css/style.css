@@ -8,9 +8,6 @@ body {
 	font-size: 1em;
 	color: #7F7F7F;
 }
-header {
-	
-}
 a {
 	color: #7F7F7F;
 }
@@ -35,15 +32,15 @@ h3 {
 	width: 30%;
 }
 .sample01, .sample02, .sample03, .sample04, .sample05, .sample06 {
+	box-sizing: border-box;
 	display: inline-block;
     vertical-align: top;
     margin-right: .5em;
     margin-bottom: 1em;
     width: 30%;
     border: solid 1px #C7C7C7;
-    text-align: center;
     padding: .5em;
-    min-height: 400px;
+    min-height: 500px;
 }
 h4 {
 	font-size: 1.5em;
@@ -61,21 +58,18 @@ a > .smallertext {
 }
 .examplenav0 {
 	width: 33.33%;
-	text-align: left;
 	font-size: 0.75em;
 	float: left;
 	text-align: left;
 }
 .examplenav1 {
 	width: 33.33%;
-	text-align: left;
 	font-size: 0.75em;
 	float: left;
 	text-align: center;
 }
 .examplenav2 {
 	width: 33.33%;
-	text-align: left;
 	font-size: 0.75em;
 	float: left;
 	text-align: right;
