@@ -1,0 +1,94 @@
+@charset "UTF-8";
+body {
+    font-family: Georgia, serif;
+    font-size: 100%;
+    line-height: 175%;
+    margin: 0 15% 0;
+    background: #BF9B8E url(images/blackgoose.png) no-repeat center 100px fixed;
+}
+header {
+    margin-top: 0;
+    padding: 3em 1em 2em 1em;
+    text-align: center;
+    background: url(images/border-horizontal.png) center top repeat-x;
+    background: url(images/border-vertical.png) left top repeat-y,  url(images/border-vertical.png) right top repeat-y,  url(images/gooseshadow.png) 90% bottom no-repeat;
+    background-color: rgba(242,227,182,.5);
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    color: #F2E3B6;
+}
+a:visited {
+    color: #F9F3E0;
+}
+a:focus, a:hover {
+    color: #F9D97A;
+    background-color: #8B7167;
+}
+a:active {
+    color: #F8C52E;
+    background-color: #54443E;
+}
+header a {
+    text-decoration: none;
+	font-weight: bold;
+}
+header a:link {
+    color: #D9910B;
+}
+header a:visited {
+    color: #E3AF4D;
+}
+header a:focus, header a:hover {
+    color: #A26A03;
+    background-color: #F6D777;
+}
+header a:active {
+    color: #5A3B00;
+    background-color: #F9CD44;
+}
+h1 {
+    font: bold 1.5em "Notable", serif;
+    text-shadow: .05em .05em .1em #000;
+    color: #D9910B;
+    letter-spacing: .2em;
+}
+h2 {
+    font: bold 1em "Notable", serif;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    text-align: center;
+    color: #B3E7F2;
+}
+dt {
+    font-weight: bold;
+}
+strong {
+    font-style: italic;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.info {
+    font-style: italic;
+}
+.price {
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+warning, sup {
+    font-size: small;
+}
+.label {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: normal;
+}
+h2 + p {
+    text-align: center;
+    font-style: italic;
+}
